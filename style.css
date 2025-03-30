@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Wallet & Login/Signup Button Styling */
+.wallet-btn, .login-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-btn {
+    background: #00070f; /* Blue color for differentiation */
+}
+
+.wallet-btn:hover, .login-btn:hover {
+    opacity: 0.8;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: white;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-buttons .primary-btn {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-buttons .secondary-btn {
+    background: gray;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hero Image */
+.hero-image img {
+    max-width: 80%; /* Decreased image size */
+    height: auto;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature-box {
+    background: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    text-align: center;
+    padding: 50px;
+    background: #f1f1f1;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.step {
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    padding: 50px;
+    background: black;
+    color: white;
+}
+
+.cta .primary-btn {
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    padding: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}

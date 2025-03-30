@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCred - Secure Credential Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">EduCred</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#">Universities</a>
+            <a href="#">Students</a>
+            <a href="#">Employers</a>
+            <button onclick="issueCredential('Tech Fusion', 'B.Tech', 'UEM, Jaipur')">Issue Credential</button>
+            <button onclick="verifyCredential('0x123456...')">Verify Credential</button>
+            <button class="wallet-btn">Connect Wallet</button>
+            <p id="wallet-address"></p>
+            <button class="login-btn" onclick="location.href='login.html'">Login/Signup</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Secure Credential Verification on Blockchain</h1>
+            <p>Issue, store, and verify academic credentials instantly using blockchain technology</p>
+            <div class="hero-buttons">
+                <button class="primary-btn">Get Started</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="blockchain.jpg" alt="Blockchain verification">
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Key Features</h2>
+        <div class="features-container">
+            <div class="feature-box">
+                <h3>🛡️ Tamper-proof Credentials</h3>
+                <p>Secure storage of academic credentials on Sol blockchain</p>
+            </div>
+            <div class="feature-box">
+                <h3>🔗 Metamask Wallet Integration</h3>
+                <p>Direct link to student wallets for easy management</p>
+            </div>
+            <div class="feature-box">
+                <h3>✅ Instant Verification</h3>
+                <p>Verify credentials in seconds using QR codes</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">1. University Issues Credential</div>
+            <div class="step">2. Student Receives</div>
+            <div class="step">3. Share Credentials</div>
+            <div class="step">4. Instant Verification</div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Transform Credential Verification?</h2>
+        <p>XYZ universities and institutions already using our platform</p>
+        <button class="primary-btn">Get Started Now</button>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EduCred</h3>
+                <p>Secure credential verification on Solidity blockchain</p>
+            </div>
+            <div class="footer-section">
+                <h3>Product</h3>
+                <a href="#">Features</a>
+                <a href="#">Security</a>
+                <a href="#">Pricing</a>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <a href="#">Documentation</a>
+                <a href="#">API Reference</a>
+                <a href="#">Support</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2025 EduCred. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
